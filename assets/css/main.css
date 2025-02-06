@@ -1567,7 +1567,7 @@ input, select, textarea {
 			}
 
 	footer {
-		margin: 2.25em 0 0 0;
+		margin: 0em 0 0 0;
 	}
 
 /* Box */
@@ -1634,8 +1634,8 @@ input, select, textarea {
 		font-size: 1.1em;
 		padding: 0.65em 1.5em 0.65em 1.5em;
 		text-align: center;
-		min-width: 100px; /* Smallest width */
-    	max-width: 150px; /* Largest width */
+		min-width: 150px; /* Smallest width */
+    	max-width: 200px; /* Largest width */
     	width: auto; /* Adjusts based on content */
 		-moz-transition: background-color .25s ease-in-out;
 		-webkit-transition: background-color .25s ease-in-out;
@@ -2088,13 +2088,13 @@ input, select, textarea {
 	#header {
 		position: relative;
 		background: #F2EFE7 ;
-		border-bottom: solid 1px #ccc;
 		padding: 5em 0 4em 0;
 		text-align: center;
 	}
 
 		#header h1 {
-			
+			margin-top: 1em;
+			margin-bottom: 1em;
 			color: #252122;
 			font-weight: 900;
 			font-size: 2.5em;
@@ -2115,7 +2115,7 @@ input, select, textarea {
 		}
 
 	#nav {
-		margin: 2.5em 0 0 0;
+		margin: 0em 0 0 0;
 	}
 
 		#nav > ul {
@@ -2206,23 +2206,23 @@ input, select, textarea {
 
 /* Banner */
 
-	#banner {
-		background: #F2EFE7  url("../../images/pic01.jpg");
+	/*#banner {
+		background: url("../../images/pic01.jpg");
 		background-position: center center;
-		background-size: auto 90%;
+		background-size: auto 95%;
 		background-repeat: no-repeat;
 		padding: 0em 0em;
 		margin: 2em 0 0 0;
-		min-height: 500px;
-		max-height: 4000px;
-	}
+			
+		}
+		*/
 		/*
 		#banner header {
 			background-color: rgba(34, 30, 31, 0.98);
 			display: inline-block;
 			padding: 2.5em 5em;
 			border-radius: 5px;
-		} */
+		} 
 
 			#banner header h2 {
 				color: #fff;
@@ -2242,12 +2242,14 @@ input, select, textarea {
 				height: 1920px;
 				width: 1080px;
 			}
-
+			*/
 /* Intro */
 
 	#intro {
+		margin-bottom: 0em;
 		text-align: center;
 		overflow: hidden;
+		
 		
 		
 	}
@@ -2259,7 +2261,7 @@ input, select, textarea {
 
 		#intro section {
 			margin: 3em 0;
-			
+			margin-bottom: 0;
 			padding: 2.5em 0;
 		}
 
@@ -2313,7 +2315,19 @@ input, select, textarea {
 		#intro footer {
 			margin: 0;
 		}
-
+	#picture{
+		background-color: #F2EFE7;
+		
+	}
+	#picture img {
+		width: 85vw;
+		height: 35vw;
+		
+		border-radius: 15px;
+		display: block;
+		margin: 0 auto; /* Centers the element */
+		text-align: center;
+	}
 /* Main */
 
 	#main {
@@ -2339,6 +2353,7 @@ input, select, textarea {
 			background: #27445D url("images/bg02.png");
 			border-radius: 5px;
 		}
+		
 
 /* Footer */
 
@@ -2347,9 +2362,12 @@ input, select, textarea {
 		color: #858484;
 		background-color: #27445D;
 		padding: 4em 0;
-
+		text-align: center;
 	}
-	
+	#links {
+		display: flex;
+		justify-content: center; /* Center horizontally */
+	}
 
 
 
@@ -2405,6 +2423,16 @@ input, select, textarea {
 			body, input, textarea, select {
 				font-size: 12pt;
 			}
+			/* Footer */
+
+			#footer {
+				padding: 1em 0;
+			}
+			/* Copyright */
+
+			#copyright {
+				margin: 0;
+			}
 
 	}
 
@@ -2443,7 +2471,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				padding: 12em 0;
+				padding: 0em 0;
 				margin: 3em 0 0 0;
 			}
 
@@ -2474,7 +2502,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 3em 0;
+				padding: 1em 0;
 			}
 
 				#footer:before {
@@ -2514,7 +2542,7 @@ input, select, textarea {
 		/* Box */
 
 			.box footer ul.actions li {
-				margin: 1em 0 0 0;
+				margin: 0em 0 0 0;
 				display: block;
 			}
 
