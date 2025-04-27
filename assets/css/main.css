@@ -1,11 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 
-/*
-	Dopetrope by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1574,10 +1570,10 @@ input, select, textarea {
 
 	.box {
 		position: relative;
-		background: #BFBBA9;
+		background: #c9c7c0;
 		border-radius: 15px;
-		border-bottom: solid 1px #ccc;
-		padding: 0em 1.25em 1.25em 1em;
+		border: solid 1px #ccc;
+		padding: 0em 1em 1em 1em;
 		text-align: center;
 	}
 
@@ -1587,6 +1583,8 @@ input, select, textarea {
 			display: inline-block;
 			margin: auto;
 			max-width: 300px;
+			
+			
 
 		}
 	
