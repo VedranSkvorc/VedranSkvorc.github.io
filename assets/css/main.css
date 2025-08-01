@@ -222,6 +222,7 @@ input, select, textarea {
 		
 		
 	}
+	
 
 		.row > * {
 			box-sizing: border-box;
@@ -1569,19 +1570,20 @@ input, select, textarea {
 
 	.box {
 		position: relative;
-		background: #c9c7c0;
-		border-radius: 15px;
+		background: #fff;
+		border-radius: 0px 0px 15px 15px;
 		border: solid 1px #ccc;
-		padding: 0em 1em 1em 1em;
+		padding: 0em 0em 2em 0em;
 		text-align: center;
 	}
 
 		.box .image.featured {
-			padding-top: 1em;
+			padding-bottom: 1em;
 			position: relative;
 			display: inline-block;
 			margin: auto;
-			max-width: 300px;
+			max-width: auto;
+			
 			
 			
 
@@ -1589,7 +1591,7 @@ input, select, textarea {
 	
 
 		.box.post {
-		background: #F2EFE7;
+		background: #f5f9fd;
 		}
 
 		.box.post header {
@@ -2083,7 +2085,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background: #F2EFE7 ;
+		background: #f5f9fd ;
 		padding: 5em 0 4em 0;
 		text-align: center;
 	}
@@ -2312,7 +2314,7 @@ input, select, textarea {
 			margin: 0;
 		}
 	#picture{
-		background-color: #F2EFE7;
+		background-color: #f5f9fd;
 		
 	}
 	#picture img {
@@ -2328,7 +2330,7 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #F2EFE7 url("images/bg02.png");
+		background: #f5f9fd url("images/bg02.png");
 		padding: 4em 0 4em 0;
 	}
 
@@ -2854,6 +2856,7 @@ input, select, textarea {
 					margin-top: 0;
 					font-size: 1em;
 				}
+				
 
 		/* Divided */
 
